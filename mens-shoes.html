@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Men's Shoes - TIPTOE Soles</title>
+    <link rel="stylesheet" href="Main_CSS.css"> <!-- Link to your existing CSS -->
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./Images/TipToe_Soles_Logo_colour.png" alt="tiptopsoles">
+        </div>
+        <h1>TIPTOE Soles</h1>
+        <div class="search-login">
+            <input type="text" placeholder="Search...">
+            <button><a href="login.html">Login</a></button>
+        </div>
+    </header>
+
+    <nav>
+        <a href="Main-Page.html">Home</a>
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+                <a href="men-shoes.html">Men's Shoes</a>
+                <a href="women-shoes.html">Women's Shoes</a>
+                <a href="unisex-shoes.html">Unisex Shoes</a>
+            </div>
+        </div>
+        <a href="shopping-cart.html">Shopping Cart</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="Wishlist.html">Wishlist</a>
+    </nav>
+
+    <div class="content">
+        <aside class="filters">
+            <h3>Filter By</h3>
+            <div class="filter">
+                <label for="price-range">Price Range</label>
+                <input type="range" id="price-range" min="0" max="500" step="10">
+            </div>
+            <div class="filter">
+                <label for="size">Size</label>
+                <select id="size">
+                    <option value="all">All Sizes</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                </select>
+            </div>
+            <div class="filter">
+                <label for="brand">Brand</label>
+                <select id="brand">
+                    <option value="all">All Brands</option>
+                    <option value="nike">Nike</option>
+                    <option value="adidas">Adidas</option>
+                    <option value="puma">Puma</option>
+                </select>
+            </div>
+        </aside>
+
+        <div class="shoe-list">
+            <h2>Men's Shoes Collection</h2>
+            <div class="shoe-item">
+                <img src="./Images/Clancy_Blue.jpg" alt="Clancy Blue" class="shoe-image">
+                <h3>Clancy Blue</h3>
+                <p class="price">$120.00</p>
+                <p class="description">Stylish blue sneakers that provide both comfort and durability for any occasion.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="shoe-item">
+                <img src="./Images/Gary_Black.jpg" alt="Gary Black" class="shoe-image">
+                <h3>Gary Black</h3>
+                <p class="price">$100.00</p>
+                <p class="description">Elegant black leather shoes suitable for both formal and casual settings.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="shoe-item">
+                <img src="./Images/Gary_Tan.jpg" alt="Gary Tan" class="shoe-image">
+                <h3>Gary Tan</h3>
+                <p class="price">$110.00</p>
+                <p class="description">Comfortable tan leather shoes designed for all-day wear.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="shoe-item">
+                <img src="./Images/Heavenly_Black.jpg" alt="Heavenly Black" class="shoe-image">
+                <h3>Heavenly Black</h3>
+                <p class="price">$130.00</p>
+                <p class="description">Sleek black shoes designed with a unique, comfortable design that’s perfect for formal events.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="shoe-item">
+                <img src="./Images/Sally_Tan.jpg" alt="Sally Tan" class="shoe-image">
+                <h3>Sally Tan</h3>
+                <p class="price">$105.00</p>
+                <p class="description">Casual yet stylish tan shoes that can be dressed up or down for any occasion.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="shoe-item">
+                <img src="./Images/Work_and_Walk_Chesnut.jpg" alt="Work and Walk Chestnut" class="shoe-image">
+                <h3>Work and Walk Chestnut</h3>
+                <p class="price">$140.00</p>
+                <p class="description">Durable chestnut work shoes that combine comfort and style for all-day wear.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TIPTOE Soles, a brand by Gelos Enterprises. All rights reserved.</p>
+    </footer>
+</body>
+</html>

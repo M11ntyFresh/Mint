@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback - TIPTOE Soles</title>
+    <link rel="stylesheet" href="Main_CSS.css"> <!-- Link to your existing CSS -->
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="./Images/TipToe_Soles_Logo_colour.png" alt="tiptopsoles">
+        </div>
+        <h1>TIPTOE Soles</h1>
+        <div class="search-login">
+            <input type="text" placeholder="Search...">
+            <button><a href="login.html">Login</a></button>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="Main-Page.html">Home</a>
+        <div class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Products</a>
+            <div class="dropdown-content">
+                <a href="men-shoes.html">Men's Shoes</a>
+                <a href="women-shoes.html">Women's Shoes</a>
+                <a href="unisex-shoes.html">Unisex Shoes</a>
+            </div>
+        </div>
+        <a href="shopping-cart.html">Shopping Cart</a>
+        <a href="about-us.html">About Us</a>
+        <a href="contact-us.html">Contact Us</a>
+        <a href="register.html">Register</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="Wishlist.html">Wishlist</a>
+    </nav>
+
+    <!-- Feedback Form Section -->
+    <div class="content">
+        <h2>We'd Love to Hear From You!</h2>
+        <p>Your feedback helps us improve our products and services. Please take a moment to fill out the form below.</p>
+
+        <!-- Feedback Form -->
+        <form action="submit-feedback.php" method="POST" class="feedback-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+
+            <div class="form-group">
+                <label for="rating">Rating</label>
+                <select id="rating" name="rating" required>
+                    <option value="">Select a rating</option>
+                    <option value="5">5 - Excellent</option>
+                    <option value="4">4 - Good</option>
+                    <option value="3">3 - Average</option>
+                    <option value="2">2 - Poor</option>
+                    <option value="1">1 - Very Poor</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="comments">Your Comments</label>
+                <textarea id="comments" name="comments" rows="5" required placeholder="Please share your experience or suggestions"></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit Feedback</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 TIPTOE Soles, a brand by Gelos Enterprises. All rights reserved.</p>
+    </footer>
+</body>
+</html>
