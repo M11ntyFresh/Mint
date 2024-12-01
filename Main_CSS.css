@@ -12,6 +12,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
+    line-height: 1.6; /* Added line-height for better readability */
 }
 
 header {
@@ -54,6 +55,7 @@ header .search-login button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition for smoother effect */
 }
 
 header .search-login button:hover {
@@ -75,6 +77,12 @@ nav a {
 
 nav a:hover {
     background-color: #555;
+}
+
+/* Current Page Indicator */
+nav a.active {
+    background-color: #007bff;
+    color: white;
 }
 
 /* Content Section */
@@ -308,6 +316,7 @@ footer p {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Added transition for smoother effect */
 }
 
 .shoe-item .add-to-cart:hover {
@@ -320,4 +329,9 @@ footer p {
     border-radius: 8px;
     margin-bottom: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Added focus and active states for dropdown */
+.dropdown .dropbtn:focus {
+    outline: 3px solid #0056b3;
 }
