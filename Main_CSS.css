@@ -57,6 +57,22 @@ header .search-login button {
     cursor: pointer;
     transition: background-color 0.3s ease; /* Added transition for smoother effect */
 }
+.button-link {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}
+
 
 header .search-login button:hover {
     background-color: #0056b3;
